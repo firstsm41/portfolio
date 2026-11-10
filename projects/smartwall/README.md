@@ -68,6 +68,8 @@
 <div align="center">
 <img src="images/board.png" alt="TV 상태 — 요약과 TV 카드" width="820" />
 <br/>
+<img src="images/wall.png" alt="한눈에 — 묶음별 세로 화면" width="820" />
+<br/>
 <img src="images/status.png" alt="상태 보기" width="300" />
 <img src="images/playlist.png" alt="재생목록" width="500" />
 </div>
