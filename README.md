@@ -48,14 +48,13 @@
 </td>
 <td valign="top">
 
-### [스마트월 — 병원 대기실 TV 9대를 브라우저 하나로](projects/smartwall/)
+### [스마트월: 병원 대기실 사이니지 TV 9대를 웹에서 관리하기](projects/smartwall/)
 
-삼성 세로형 사이니지 TV 에 사진·영상을 돌리고, 전원·예약·상태까지 웹 관리 화면 하나에서 다루는 시스템.
+TV마다 USB를 꽂아 바꾸던 콘텐츠를 웹에서 올리고, 전원과 예약까지 관리 화면에서 다루게 만들었습니다.
 
-- 클라우드 화면 → **병원 PC 의 localhost 도우미** → 삼성 MDC 로 내부망 TV 를 켜고 끈다 (포트 개방·키 없이)
-- 저장 공간 80MB 짜리 TV 브라우저에서 **끊기지 않는 재생** — 받으며 틀기, 멈춘 자리부터 이어 틀기, 스스로 새로 고침
-- 올리는 순간 **브라우저(WebCodecs)가 영상을 TV 해상도로 다시 만들고 검증** — 4K 영상 5개 기준 −71%
-- TV 가 1분마다 보내는 상태 보고로 **현장 문제를 재현하고 고친** 4일 · PR 28개
+- 클라우드에서 닿지 않는 병원 내부망 TV를 병원 PC 도우미(Python)를 거쳐 켜고 끕니다
+- 저장 공간이 80MB인 TV 브라우저에서 영상이 끊기던 문제를 상태 보고로 원인을 찾아 고쳤습니다
+- 영상을 올릴 때 브라우저에서 TV 해상도로 다시 만들어, 4K 영상 5개 용량을 208.7MB에서 59.7MB로 줄였습니다
 
 ![React](https://img.shields.io/badge/React_19-20232A?logo=react&logoColor=61DAFB)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
@@ -63,7 +62,7 @@
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
 ![Samsung](https://img.shields.io/badge/Samsung_MDC-1428A0?logo=samsung&logoColor=white)
 
-`2026.11` · 1인 개발 · [자세히 보기 →](projects/smartwall/) · [발표 자료 PDF](projects/smartwall/SmartWall-portfolio.pdf)
+`2026.11` 1인 개발 &nbsp; [자세히 보기](projects/smartwall/) &nbsp; [발표 자료 PDF](projects/smartwall/SmartWall-portfolio.pdf)
 
 </td>
 </tr>
